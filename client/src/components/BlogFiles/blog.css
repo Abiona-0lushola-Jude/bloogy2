@@ -1,0 +1,143 @@
+.AllBlog-container{
+    margin-left: 11rem;
+    margin-block: 1rem 2rem;
+    width: 100%;
+}
+.allData-container{
+    width: 90%;
+    padding: 0.7rem 1rem 2rem;
+    margin-block: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.allData-container:not(:last-child){
+    border-bottom: 1px solid;
+    border-radius: 0;
+}
+.image-container{
+    /* border: 1px solid; */
+    width: 20rem;
+    height: 10rem;
+}
+p{
+    margin-block: 0.5rem;
+}
+.blog-container{
+    margin-left: 11rem;
+    margin-block: 2rem;
+}
+.desc{
+    color: hsl(193, 38%, 86%);
+}
+.bttn{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.markdown{
+    margin-block: 2rem;
+    padding-inline: 0 3rem;
+}
+#delete{
+    background-color: red;
+    color: white;
+}
+#cancel{
+    background-color: aqua;
+    color: hsl(218, 23%, 16%);
+}
+img{
+    width: 9rem;
+    height: 9rem;
+}
+.readMore-img{
+    /* border: 1px solid; */
+    width: 50%;
+    height: 20rem;
+}
+.readMore-img img{
+    width: 100%;
+    height: 100%;
+}
+.Oneblog-container{
+    width: 60%;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:427px) {
+    .AllBlog-container,
+    .blog-container{
+        margin-inline: 0.5rem;
+        width: 96%;
+        margin-bottom: 6rem;
+    }
+    .allData-container{
+        width: 100%;
+        flex-direction: column;
+        padding-inline:0.7rem 1rem;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    .read-more{
+        width: 90%;
+        margin-block: 1.5rem 6rem;
+    }
+    .title{
+        font-size: 1.3rem;
+        margin-bottom: 0.1rem;
+    }
+    .desc{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+    .image-container,
+    .readMore-img{
+        width: 100%;
+    }
+    .image-container img{
+        width: 100%;
+        height: 100%;
+    }
+    .readMore-img{
+        height: 9rem;
+    }
+    .readMore-title{
+        margin-block: 0.8rem;
+    }
+    .Oneblog-container{
+        width: 100%;
+    }
+    .markdown{
+        margin-block: 1.5rem 1rem;
+        padding: 0;
+    }
+    .bttn{
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width:1100px) and (min-width:430px) {
+    .AllBlog-container{
+        width: 100%;
+        margin-left: 11rem;
+    }
+    .allData-container{
+        width:98%;
+        gap: 1.4rem;
+    }
+    .image-container{
+        width:40%;
+        height: 9rem;
+    }
+    .Oneblog-container{
+        width: 50%;
+    }
+    .readMore-img{
+        width: 90%;
+    }
+}

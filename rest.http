@@ -1,0 +1,21 @@
+GET  http://localhost:5001/get/todo
+
+
+###
+GET  http://localhost:5001/blog
+
+###
+GET http://localhost:5001/oneBlog/62f344b681f1141c86552cd9
+
+
+###
+GET  http://localhost:5001/news
+
+
+###
+POST   http://localhost:5001/post/todo
+Content-Type: application/json
+
+{
+    "title":"Calling my mom"
+}

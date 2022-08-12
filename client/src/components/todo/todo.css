@@ -1,0 +1,36 @@
+.todo-container,
+.checked{
+    margin-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid hsl(193, 38%, 86%);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    align-items: center;
+    width: 70%;
+    background-color: hsl(217, 19%, 38%);
+}
+input{
+    accent-color: green;
+}
+.checked{
+    background-color: green;
+    text-decoration: line-through;
+    color:beige;
+    border-color: white;
+}
+.svg{
+    width: 1.4rem;
+}
+.todo-text{
+    width: 75%;
+}
+@media screen and (max-width:427px) {
+    .todo-container,
+    .checked{
+        width: 100%;
+    }
+    .todo-text{
+        width: 67%;
+    }
+}

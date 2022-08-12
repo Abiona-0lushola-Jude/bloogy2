@@ -1,0 +1,29 @@
+.news-container{
+    margin-block: 2rem;
+    margin-left: 11rem;
+    width: 100%;
+}
+.newsBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.5rem;
+}
+.newsBar li{
+    cursor: pointer;
+}
+.news-contained{
+    border: 1px solid;
+    margin-block: 1rem;
+    padding: 0.9rem 1rem;
+}
+.active{
+    border-bottom: 1px solid;
+    font-weight: 700;
+}
+@media screen and (max-width:427px){
+    .news-container{
+        margin: 0;
+        width: 90%;
+        padding-block: 1rem 5rem;
+    }
+}
