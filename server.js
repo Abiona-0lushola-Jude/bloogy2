@@ -26,9 +26,10 @@ mongoose.connect(blogConnection,()=>{
 
 const path = require('path')
 
-app.use(express.static(path.resolve(__dirname, "./client/build")))
+app.use(express.static(path.join(__dirname, "client", "build")))
+
 app.get("*", (req,res)=>{
-        res.sendFile(path.resolve(__dirname, "./client/build", "index.html"))
+        res.sendFile(path.join(__dirname, "client", "build", "index.html"))
 })
 // Connecting t0 PORT
 app.listen(process.env.PORT || 4001, function(){
