@@ -5,7 +5,7 @@ import AllTodo from './AllTodo'
 const TodoList = ({data, hnandleDelete}) => {
   const [allTodo, setAllTodo] = useState([])
   useEffect(()=>{
-    axios.get('http://localhost:5001/get/todo')
+    axios.get('/get/todo')
     .then(res => setAllTodo(res.data))
     .catch(err => console.log(err))
   }, [])
