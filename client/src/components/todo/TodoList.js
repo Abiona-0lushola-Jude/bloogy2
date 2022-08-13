@@ -10,14 +10,7 @@ const TodoList = ({data, hnandleDelete}) => {
     .catch(err => console.log(err))
   }, [])
 
-  // function handleChange(){
-  //   setAllTodo(prev=> {
-  //     return{
-  //       ...prev,
-  //       checked: !prev.checked
-  //     }
-  //   })
-  // }
+  
   return (
     <div>
       {allTodo.map(element => {
