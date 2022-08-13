@@ -5,11 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-      "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "engines": {
-    "node":"18.0.0",
-    "npm":"8.6.0"
+    "node": "18.0.0",
+    "npm": "8.6.0"
   },
   "keywords": [],
   "author": "",
