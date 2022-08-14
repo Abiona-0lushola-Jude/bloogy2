@@ -12,6 +12,11 @@
     align-items: center;
     gap: 3rem;
 }
+#title, 
+#desc,
+#markdown{
+    background-color: white;
+}
 .allData-container:not(:last-child){
     border-bottom: 1px solid;
     border-radius: 0;

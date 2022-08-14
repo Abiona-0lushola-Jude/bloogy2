@@ -19,6 +19,9 @@ input{
     color:beige;
     border-color: white;
 }
+#title{
+    background-color: white;
+}
 .svg{
     width: 1.4rem;
 }
