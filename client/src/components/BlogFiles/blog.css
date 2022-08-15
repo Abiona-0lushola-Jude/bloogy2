@@ -53,14 +53,9 @@ p{
     background-color: aqua;
     color: hsl(218, 23%, 16%);
 }
-img{
-    width: 9rem;
-    height: 9rem;
-}
 .readMore-img{
-    /* border: 1px solid; */
-    width: 50%;
-    height: 20rem;
+    width: 60%;
+    height: 17rem;
 }
 .readMore-img img{
     width: 100%;
@@ -72,6 +67,9 @@ img{
 .image-container img{
     width: 100%;
     height: 100%;
+}
+.read-more{
+    width: 100%;
 }
 @media screen and (max-width:427px) {
     .AllBlog-container,
