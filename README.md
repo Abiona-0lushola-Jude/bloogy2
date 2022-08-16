@@ -33,7 +33,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot (182)](https://user-images.githubusercontent.com/103720345/184944391-25e67990-235e-486f-93de-8a98defaa8f5.png)
+
+### The Blog Section
+
+![Screenshot (183)](https://user-images.githubusercontent.com/103720345/184944468-ae9076c6-d557-4d6c-83b1-38c3849ee089.png)
+
+### The Movie news Section
+
+![Screenshot (184)](https://user-images.githubusercontent.com/103720345/184944553-936c7dc9-a7e5-4e16-97e3-12929feea915.png)
+
+### The Todo Section
 
 
 ### Links
